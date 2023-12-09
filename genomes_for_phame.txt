@@ -1,18 +1,23 @@
 ### Type strains
-GCA_000196735.1_ASM19673v1_genomic.fna	DSM7
-GCA_000262045.1_KCTC_13613_01_genomic.fna Bacillus siamensis KCTC 13613 
-GCA_002117165.1_ASM211716v1_genomic.fna  Bacillus velezensis CBMB205 Chung-Ang University
-GCA_003431885.1_ASM343188v1_genomic.fna Bacillus velezensis CBMB205 Chungbuk National University
+GCA_000196735.1_ASM19673v1_genomic.fna  Bacillus amyloliquefaciens DSM7
+
+#GCA_002117165.1_ASM211716v1_genomic.fna  Bacillus velezensis CBMB205 Chung-Ang University
+GCA_003431885.1_ASM343188v1_genomic.fna Bacillus velezensis CBMB205
+#GCA_000960265.2_ASM96026v2_genomic.fna Bacillus velezensis KACC 13105
+#GCA_900100225.1_IMG-taxon_2654588201_annotated_assembly_genomic.fna Bacillus velezensis CBMB205 DoE
+
 GCA_000015785.2_ASM1578v2_genomic.fna  Bacillus velezensis FZB42
-GCA_900100225.1_IMG-taxon_2654588201_annotated_assembly_genomic.fna Bacillus velezensis CBMB205 DoE
+
 GCA_001461825.1_ASM146182v1_genomic.fna  Bacillus velezensis NRRL B-41580
 GCA_001267695.1_ASM126769v1_genomic.fna  Bacillus velezensis KCTC 13012
+
 GCA_001461835.1_ASM146183v1_genomic.fna Bacillus velezensis KACC 18228
-GCA_000960265.2_ASM96026v2_genomic.fna Bacillus velezensis KACC 13105 
-GCA_000966575.1_ASM96657v1_genomic.fna  Bacillus siamensis XY18
+
+GCA_000262045.1_KCTC_13613_01_genomic.fna Bacillus siamensis KCTC 13613
+#GCA_000966575.1_ASM96657v1_genomic.fna  Bacillus siamensis XY18
 
 ### Bacillus sp. EU07
-GCA_019997305.1_ASM1999730v1_genomic.fna	 EU07
+GCA_019997305.1_ASM1999730v1_genomic.fna         EU07
 
 ### Strains closely related to EU07
 GCA_004421045.1_ASM442104v1_genomic.fna  Bacillus amyloliquefaciens FS1092
