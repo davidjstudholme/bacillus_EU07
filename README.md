@@ -71,8 +71,8 @@ ln -s ./bacillus_EU07/phame.ctl .
 
 screen
 conda activate phame_env
-cp phylogenomics-Xanthomonas-1/phame.ctl .
-phame ./phame.ctl
+ln -s .//bacillus_EU07/Bacillus_velezensis_EU07.phame.ctl .
+phame ./Bacillus_velezensis_EU07.phame.ctl
 
 ```
 
