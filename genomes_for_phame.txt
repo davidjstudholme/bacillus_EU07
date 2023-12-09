@@ -31,7 +31,6 @@ GCA_020176805_1_ASM2017680v1_genomic_fna_contig.fna	 AM0938
 GCA_024300805_1_ASM2430080v1_genomic_fna_contig.fna KNU-28
 GCA_019093835_1_ASM1909383v1_genomic_fna_contig.fna	G BK
 GCA_001278635_1_ASM127863v1_genomic_fna_contig.fna	 BS006
-GCA_004421045_1_ASM442104v1_genomic_fna_contig.fna	FS-1092
 GCA_003149795_1_ASM314979v1_genomic_fna_contig.fna	ALB79
 GCA_014791945_1_ASM1479194v1_genomic_fna_contig.fna	INH2-4b
 GCA_001596755_1_ASM159675v1_genomic_fna_contig.fna	B15
@@ -47,28 +46,28 @@ GCA_000817575_1_ASM81757v1_genomic_fna_contig.fna TF28
 GCA_008245105_1_ASM824510v1_genomic_fna_contig.fna ARP23
 
 
-GCA_019997305.1_ASM1999730v1_genomic.fna 
-GCA_004421045.1_ASM442104v1_genomic.fna  
-GCA_021228895.1_ASM2122889v1_genomic.fna 
-GCA_003986895.1_ASM398689v1_genomic.fna 
-GCA_007678125.1_ASM767812v1_genomic.fna  
-GCA_003073255.1_ASM307325v1_genomic.fna  
-GCA_026156445.1_ASM2615644v1_genomic.fna 
-GCA_001709055.1_ASM170905v1_genomic.fna  
-GCA_019093835.1_ASM1909383v1_genomic.fna 
-GCA_014791945.1_ASM1479194v1_genomic.fna 
-GCA_028609625.1_ASM2860962v1_genomic.fna 
-GCA_003149795.1_ASM314979v1_genomic.fna  
-GCA_024300805.1_ASM2430080v1_genomic.fna 
-GCA_001278635.1_ASM127863v1_genomic.fna  
-GCA_024134605.1_ASM2413460v1_genomic.fna 
-GCA_000817575.1_ASM81757v1_genomic.fna   
-GCA_034060585.1_ASM3406058v1_genomic.fna 
-GCA_010671715.1_ASM1067171v1_genomic.fna 
-GCA_009193045.1_ASM919304v1_genomic.fna  
-GCA_034061945.1_ASM3406194v1_genomic.fna 
-GCA_026786545.1_ASM2678654v1_genomic.fna 
-GCA_024138555.1_ASM2413855v1_genomic.fna 
+
+GCA_004421045.1_ASM442104v1_genomic.fna  Bacillus amyloliquefaciens FS1092
+GCA_021228895.1_ASM2122889v1_genomic.fna Bacillus velezensis A4P130
+GCA_003986895.1_ASM398689v1_genomic.fna Bacillus velezensis BE2
+GCA_007678125.1_ASM767812v1_genomic.fna Bacillus velezensis DE0189 
+GCA_003073255.1_ASM307325v1_genomic.fna Bacillus velezensis QST713 
+GCA_026156445.1_ASM2615644v1_genomic.fna Bacillus velezensis CHBv2
+GCA_001709055.1_ASM170905v1_genomic.fna Bacillus velezensis CFSAN034339 
+GCA_019093835.1_ASM1909383v1_genomic.fna Bacillus amyloliquefaciens BK
+GCA_014791945.1_ASM1479194v1_genomic.fna Bacillus amyloliquefaciens INH2-4b
+GCA_028609625.1_ASM2860962v1_genomic.fna Bacillus velezensis DMW1
+GCA_003149795.1_ASM314979v1_genomic.fna  Bacillus amyloliquefaciens ALB79
+GCA_024300805.1_ASM2430080v1_genomic.fna Bacillus amyloliquefaciens KNU-28 
+GCA_001278635.1_ASM127863v1_genomic.fna  Bacillus amyloliquefaciens BS006 
+GCA_024134605.1_ASM2413460v1_genomic.fna Bacillus velezensis 2987tsa1 
+GCA_000817575.1_ASM81757v1_genomic.fna   Bacillus amyloliquefaciens TF28 
+GCA_034060585.1_ASM3406058v1_genomic.fna Bacillus velezensis Y-4 
+GCA_010671715.1_ASM1067171v1_genomic.fna Bacillus velezensis HU-91 
+GCA_009193045.1_ASM919304v1_genomic.fna  Bacillus velezensis BPC6 
+GCA_034061945.1_ASM3406194v1_genomic.fna Bacillus velezensis YN-2A
+GCA_026786545.1_ASM2678654v1_genomic.fna Bacillus velezensis NRRL B-59289 
+GCA_024138555.1_ASM2413855v1_genomic.fna Bacillus velezensis TPS17 
 GCA_029866505.1_ASM2986650v1_genomic.fna 
 GCA_000341875.1_ASM34187v1_genomic.fna   
 GCA_009789615.1_ASM978961v1_genomic.fna 
