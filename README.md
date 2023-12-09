@@ -3,7 +3,9 @@ Bioinformatics analysis to support manuscript submitted to Access Microbiology
 
 ```
 conda  create -n fastani_env fastani
-conda activate fastani_env
+
+conda create -n phame_env phame
+
 ```
 
 ```
@@ -34,6 +36,7 @@ mkdir fastani
 cd fastani/
 ln -s ../bacillus_EU07/query_list.txt .
 ln -s ../bacillus_EU07/ref_list.txt .
+conda activate fastani_env
 fastANI --ql query_list.txt --rl ref_list.txt -o all-versus-all.fastANI.out -t 6 --visualize --matrix
 
 
