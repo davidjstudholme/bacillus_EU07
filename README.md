@@ -29,10 +29,12 @@ ls *.fna
 cd ..
 
 
-### Create directory for ANI analysis
+### Create directory and perform ANI analysis
 mkdir fastani
 cd fastani/
-
+ln -s ../bacillus_EU07/query_list.txt .
+ln -s ../bacillus_EU07/ref_list.txt .
+fastANI --ql query_list.txt --rl ref_list.txt -o all-versus-all.fastANI.out -t 6 --visualize --matrix
 
 
 ```
