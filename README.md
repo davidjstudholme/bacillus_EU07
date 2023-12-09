@@ -46,4 +46,12 @@ conda activate fastani_env
 fastANI --ql query_list.txt --rl ref_list.txt -o all-versus-all.fastANI.out -t 6 --visualize --matrix
 
 
+
+### Rename genome sequence files with strain names
+cd all_genomes/
+ln -s ../bacillus_EU07/rename_files.pl .
+ln -s ../bacillus_EU07/genomes_for_phame.txt .
+
+
+
 ```
