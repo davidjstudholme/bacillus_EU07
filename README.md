@@ -59,6 +59,10 @@ ln -s ../all_genomes/*.contig .
 rm DSM7.contig
 cd ..
 
+### Get config file for PhaME
+ln -s ./bacillus_EU07/phame.ctl .
+
+
 ### Run PhaME
 ### Shakya, M., Ahmed, S.A., Davenport, K.W. et al. 
 ### Standardized phylogenetic and molecular evolutionary analysis applied to species across the microbial tree of life. 
