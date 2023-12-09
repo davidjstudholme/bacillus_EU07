@@ -6,16 +6,6 @@ conda  create -n fastani_env fastani
 
 conda create -n phame_env phame
 
-
-conda create -n realphy_env
-conda activate realphy_env
-conda install -c bioconda realphy
-conda install phyml
-conda install phylip
-conda install raxml
-
-
-
 ```
 
 ```
@@ -56,20 +46,63 @@ cd all_genomes/
 ln -s ../bacillus_EU07/rename_files.pl .
 ln -s ../bacillus_EU07/genomes_for_phame.txt .
 
+### Set-up the ref/ directory
+mkdir ref
+cd ref
+ln -s ln -s ../all_genomes/DSM7.fasta .
+cd -
 
+### Set-up the workdir/ directory
+mkdir workdir
+cd workdir
+ln -s ../all_genomes/*.contig .
+rm DSM7.contig
+cd -
+
+### Run PhaME
+### Shakya, M., Ahmed, S.A., Davenport, K.W. et al. 
+### Standardized phylogenetic and molecular evolutionary analysis applied to species across the microbial tree of life. 
+### Sci Rep 10, 1723 (2020). 
+### https://doi.org/10.1038/s41598-020-58356-1
+
+screen
+conda activate phame_env
+cp phylogenomics-Xanthomonas-1/phame.ctl .
+phame ./phame.ctl
+
+```
+
+
+
+
+
+
+
+
+```
 mkdir realphy
 cd realphy
+
 mkdir genomes_for_realphy
 cd genomes_for_realphy
 ln -s ../../all_genomes/*.fasta .
 cd ..
-mkdir realphy_output
 
+mkdir realphy_output
+cd realphy_output/
+ln -s ../../bacillus_EU07/config.txt .
+cd ..
+
+
+conda create -n realphy_env
+conda activate realphy_env
+conda install -c bioconda realphy
+conda install phyml
+conda install phylip
+conda install raxml
 
 conda activate realphy_env
-
-
-
+realphy genomes_for_realphy realphy_output
 
 
 ```
