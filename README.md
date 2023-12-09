@@ -106,7 +106,7 @@ conda install phylip
 conda install raxml
 
 conda activate realphy_env
-realphy genomes_for_realphy realphy_output
+realphy genomes_for_realphy realphy_output -ref Bacillus_amyloliquefaciens_DSM7 
 
 
 ```
