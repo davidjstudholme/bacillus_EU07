@@ -50,14 +50,14 @@ ln -s ../bacillus_EU07/genomes_for_phame.txt .
 mkdir ref
 cd ref
 ln -s ln -s ../all_genomes/DSM7.fasta .
-cd -
+cd ..
 
 ### Set-up the workdir/ directory
 mkdir workdir
 cd workdir
 ln -s ../all_genomes/*.contig .
 rm DSM7.contig
-cd -
+cd ..
 
 ### Run PhaME
 ### Shakya, M., Ahmed, S.A., Davenport, K.W. et al. 
