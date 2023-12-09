@@ -1,7 +1,10 @@
 # bacillus_EU07
 Bioinformatics analysis to support manuscript submitted to Access Microbiology
 
-
+```
+conda  create -n fastani_env fastani
+conda activate fastani_env
+```
 
 ```
 ### Get this repo
@@ -22,3 +25,7 @@ ln -s ../datasets .
 unzip all_genomes_09_12_23.txt.zip
 ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 ls *.fna
+
+cd ..
+
+```
