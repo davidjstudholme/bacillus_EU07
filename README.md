@@ -110,3 +110,21 @@ realphy genomes_for_realphy realphy_output -ref Bacillus_amyloliquefaciens_DSM7
 
 
 ```
+
+
+
+
+```
+### Use MAUVE contig mover to re-order contigs against reference genome
+# Assumes that we have installed mauve-aligner package with sudo apt-get install and downloaded Mauve.jar from https://darlinglab.org/mauve/download.html
+# Also assumes that we have the genomic DNA fasta files in the current working directory.
+
+for i in *.fasta; do echo $i; java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauve.jar org.gel.mauve.contigs.ContigOrderer -output $i.reordered -ref Bacillus_velezensis_FZB42.fasta -draft $i ; done 
+
+
+
+```
+
+
+
+
