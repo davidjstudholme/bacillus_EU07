@@ -1,10 +1,10 @@
-       refdir = ./ref  # directory where reference files are located
+refdir = ./ref  # directory where reference files are located
       workdir = ./workdir # directory where contigs/reads files are located and output is stored
 
     reference = 1  # 0:pick a random reference; 1:use given reference; 2: use ANI based reference
-      reffile = DSM7.fasta  # reference filename 
+      reffile = DSM7.fasta   # reference filename 
 
-      project = test  # main alignment file name
+      project = Bacillus_velezensis_EU07  # main alignment file name
 
       cdsSNPS = 0  # 0:no cds SNPS; 1:cds SNPs
 
@@ -22,9 +22,9 @@
 
       aligner = bowtie # support bowtie/bwa/minimap2
 
-         tree = 1  # 0:no tree; 1:use FastTree; 2:use RAxML; 3:IQ-TREE; 4: use all
+         tree = 4  # 0:no tree; 1:use FastTree; 2:use RAxML; 3:IQ-TREE; 4: use all
     bootstrap = 1  # 0:no; 1:yes;  # Run bootstrapping  *See below
-            N = 100  # Number of bootstraps to run *See below    
+            N = 1000  # Number of bootstraps to run *See below    
   
     PosSelect = 0  # 0:No; 1:use PAML; 2:use HyPhy; 3:use both
 
