@@ -28,4 +28,11 @@ ls *.fna
 
 cd ..
 
+
+### Create directory for ANI analysis
+mkdir fastani
+cd fastani/
+
+
+
 ```
