@@ -1,0 +1,7 @@
+BOWTIE2 /usr/bin/bowtie2
+BOWTIE2BUILDER /usr/bin/bowtie2-build
+#TREEPUZZLE /home/smith/Programs/TREE-PUZZLE/bin/puzzle
+RAXML /data/djs217/anaconda3/envs/realphy_env/bin/raxmlHPC-SSE3
+Rscript /usr/bin/Rscript
+MaxPars /data/djs217/anaconda3/envs/realphy_env/bin/dnapars
+PhyML /data/djs217/anaconda3/envs/realphy_env/bin/phyml
