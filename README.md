@@ -6,6 +6,12 @@ conda  create -n fastani_env fastani
 
 conda create -n phame_env phame
 
+
+conda create -n realphy_env
+conda activate realphy_env
+conda install -c bioconda realphy
+
+
 ```
 
 ```
