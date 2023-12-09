@@ -10,6 +10,10 @@ conda create -n phame_env phame
 conda create -n realphy_env
 conda activate realphy_env
 conda install -c bioconda realphy
+conda install phyml
+conda install phylip
+conda install raxml
+
 
 
 ```
@@ -51,6 +55,20 @@ fastANI --ql query_list.txt --rl ref_list.txt -o all-versus-all.fastANI.out -t 6
 cd all_genomes/
 ln -s ../bacillus_EU07/rename_files.pl .
 ln -s ../bacillus_EU07/genomes_for_phame.txt .
+
+
+mkdir realphy
+cd realphy
+mkdir genomes_for_realphy
+cd genomes_for_realphy
+ln -s ../../all_genomes/*.fasta .
+cd ..
+mkdir realphy_output
+
+
+conda activate realphy_env
+
+
 
 
 
