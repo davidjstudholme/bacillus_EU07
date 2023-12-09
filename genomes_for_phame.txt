@@ -12,7 +12,7 @@ GCA_000960265.2_ASM96026v2_genomic.fna Bacillus velezensis KACC 13105
 GCA_000966575.1_ASM96657v1_genomic.fna  Bacillus siamensis XY18
 
 ### Bacillus sp. EU07
-GCA_019997305_1_ASM1999730v1_genomic_fna_contig	 EU07
+GCA_019997305_1_ASM1999730v1_genomic_fna_contig.fna	 EU07
 
 ### Strains closely related to EU07
 GCA_004421045.1_ASM442104v1_genomic.fna  Bacillus amyloliquefaciens FS1092
