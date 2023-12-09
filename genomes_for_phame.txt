@@ -1,52 +1,20 @@
 ### Type strains
-GCA_000196735_1_ASM19673v1_genomic_fna	DSM7
-GCA_000262045.1 Bacillus siamensis KCTC 13613 
-GCA_002117165.1 Bacillus velezensis CBMB205 Chung-Ang University
-GCA_003431885.1 Bacillus velezensis CBMB205 Chungbuk National University
-GCA_000015785.2 Bacillus velezensis FZB42
-GCA_900100225.1 Bacillus velezensis CBMB205 DoE
-GCA_001461825.1 Bacillus velezensis NRRL B-41580
-GCA_001267695.1 Bacillus velezensis KCTC 13012
-GCA_001461835.1 Bacillus velezensis KACC 18228
-GCA_000960265.2 Bacillus velezensis KACC 13105 
-GCA_000966575.1 Bacillus siamensis XY18
+GCA_000196735.1_ASM19673v1_genomic.fna	DSM7
+GCA_000262045.1_KCTC_13613_01_genomic.fna Bacillus siamensis KCTC 13613 
+GCA_002117165.1_ASM211716v1_genomic.fna  Bacillus velezensis CBMB205 Chung-Ang University
+GCA_003431885.1_ASM343188v1_genomic.fna Bacillus velezensis CBMB205 Chungbuk National University
+GCA_000015785.2_ASM1578v2_genomic.fna  Bacillus velezensis FZB42
+GCA_900100225.1_IMG-taxon_2654588201_annotated_assembly_genomic.fna Bacillus velezensis CBMB205 DoE
+GCA_001461825.1_ASM146182v1_genomic.fna  Bacillus velezensis NRRL B-41580
+GCA_001267695.1_ASM126769v1_genomic.fna  Bacillus velezensis KCTC 13012
+GCA_001461835.1_ASM146183v1_genomic.fna Bacillus velezensis KACC 18228
+GCA_000960265.2_ASM96026v2_genomic.fna Bacillus velezensis KACC 13105 
+GCA_000966575.1_ASM96657v1_genomic.fna  Bacillus siamensis XY18
 
 ### Bacillus sp. EU07
 GCA_019997305_1_ASM1999730v1_genomic_fna_contig	 EU07
 
-
-
 ### Strains closely related to EU07
-GCA_001587325_1_B4140_genomic_fna_contig.fna	              B4140
-GCA_019458745_1_ASM1945874v1_genomic_fna_contig.fna         PMB04
-GCA_013423695_1_ASM1342369v1_genomic_fna_contig.fna	G58
-GCA_000559145_1_BacAmy_A3_genomic_fna_contig.fna	BacAmy A3
-GCA_005048195_1_ASM504819v1_genomic_fna_contig.fna	HMA-LCI
-GCA_000835145_1_ASM83514v1_genomic_fna_contig.fna	KHG19
-GCA_020971785_1_ASM2097178v1_genomic_fna_contig.fna	ZF57
-GCA_003312895_1_ASM331289v1_genomic_fna_contig.fna	 SH-B74
-GCA_001558705_1_ASM155870v1_genomic_fna_contig.fna	11B91
-GCA_022559645_1_ASM2255964v1_genomic_fna_contig.fna	ZKY01
-GCA_020176805_1_ASM2017680v1_genomic_fna_contig.fna	 AM0938
-GCA_024300805_1_ASM2430080v1_genomic_fna_contig.fna KNU-28
-GCA_019093835_1_ASM1909383v1_genomic_fna_contig.fna	G BK
-GCA_001278635_1_ASM127863v1_genomic_fna_contig.fna	 BS006
-GCA_003149795_1_ASM314979v1_genomic_fna_contig.fna	ALB79
-GCA_014791945_1_ASM1479194v1_genomic_fna_contig.fna	INH2-4b
-GCA_001596755_1_ASM159675v1_genomic_fna_contig.fna	B15
-GCA_021128895_1_ASM2112889v1_genomic_fna_contig.fna	BS9
-GCA_026319435_1_ASM2631943v1_genomic_fna_contig.fna	 BTSS3
-GCA_001593765_1_ASM159376v1_genomic_fna_contig.fna	UMAF6639
-GCA_001294785_1_ASM129478v1_genomic_fna_contig.fna	XK-4-1
-GCA_000784675_1_A3_1_genomic_fna_contig.fna	HB26
-GCA_022833015_1_ASM2283301v1_genomic_fna_contig.fna W0101
-GCA_017603845_1_ASM1760384v1_genomic_fna_contig.fna XJ5
-GCA_024138555_1_ASM2413855v1_genomic_fna_contig.fna TPS17
-GCA_000817575_1_ASM81757v1_genomic_fna_contig.fna TF28
-GCA_008245105_1_ASM824510v1_genomic_fna_contig.fna ARP23
-
-
-
 GCA_004421045.1_ASM442104v1_genomic.fna  Bacillus amyloliquefaciens FS1092
 GCA_021228895.1_ASM2122889v1_genomic.fna Bacillus velezensis A4P130
 GCA_003986895.1_ASM398689v1_genomic.fna Bacillus velezensis BE2
@@ -77,7 +45,3 @@ GCA_021559715.1_ASM2155971v1_genomic.fna Bacillus velezensis CF57
 GCA_012647845.1_ASM1264784v1_genomic.fna Bacillus velezensis UCMB5140 
 GCA_026787705.1_ASM2678770v1_genomic.fna Bacillus velezensis NRRL BD-154 
 GCA_001647965.1_ASM164796v1_genomic.fna  Bacillus velezensis AP194 
- 
-
-
-
