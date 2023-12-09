@@ -67,17 +67,17 @@ GCA_010671715.1_ASM1067171v1_genomic.fna Bacillus velezensis HU-91
 GCA_009193045.1_ASM919304v1_genomic.fna  Bacillus velezensis BPC6 
 GCA_034061945.1_ASM3406194v1_genomic.fna Bacillus velezensis YN-2A
 GCA_026786545.1_ASM2678654v1_genomic.fna Bacillus velezensis NRRL B-59289 
-GCA_024138555.1_ASM2413855v1_genomic.fna Bacillus velezensis TPS17 
-GCA_029866505.1_ASM2986650v1_genomic.fna 
-GCA_000341875.1_ASM34187v1_genomic.fna   
-GCA_009789615.1_ASM978961v1_genomic.fna 
-GCA_029910295.1_ASM2991029v1_genomic.fna 
-GCA_009738165.1_ASM973816v1_genomic.fna  
-GCA_021559715.1_ASM2155971v1_genomic.fna 
-GCA_012647845.1_ASM1264784v1_genomic.fna 
-GCA_026787705.1_ASM2678770v1_genomic.fna 
-CA_001647965.1_ASM164796v1_genomic.fna  
-all_genomes/GCA_001593765.1_ASM159376v1_genomic.fna  
+GCA_024138555.1_ASM2413855v1_genomic.fna Bacillus amyloliquefaciens TPS17 
+GCA_029866505.1_ASM2986650v1_genomic.fna Bacillus amyloliquefaciens MN-13 
+GCA_000341875.1_ASM34187v1_genomic.fna   Bacillus velezensis UCMB5036 
+GCA_009789615.1_ASM978961v1_genomic.fna Bacillus velezensis BA-26
+GCA_029910295.1_ASM2991029v1_genomic.fna Bacillus velezensis PT4
+GCA_009738165.1_ASM973816v1_genomic.fna  Bacillus velezensis HN-Q-8 
+GCA_021559715.1_ASM2155971v1_genomic.fna Bacillus velezensis CF57
+GCA_012647845.1_ASM1264784v1_genomic.fna Bacillus velezensis UCMB5140 
+GCA_026787705.1_ASM2678770v1_genomic.fna Bacillus velezensis NRRL BD-154 
+GCA_001647965.1_ASM164796v1_genomic.fna  Bacillus velezensis AP194 
+ 
 
 
 
