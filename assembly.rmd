@@ -8,7 +8,7 @@ trim_galore --paired -q 30 EU07_r1.fq.gz  EU07_r2.fq.gz
 
 
 
-### 
+### SPAdes v3.13.1
 spades.py --careful -1 EU07_r1_val_1.fq.gz -2 EU07_r2_val_2.fq.gz -o EU07.spades
 
 
