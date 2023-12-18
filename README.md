@@ -119,14 +119,11 @@ realphy genomes_for_realphy realphy_output -ref Bacillus_amyloliquefaciens_DSM7
 # Assumes that we have installed mauve-aligner package with sudo apt-get install and downloaded Mauve.jar from https://darlinglab.org/mauve/download.html
 # Also assumes that we have the genomic DNA fasta files in the current working directory.
 
-for i in *.fasta; do echo $i; java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauve.jar org.gel.mauve.contigs.ContigOrderer -output $i.reordered -ref Bacillus_velezensis_FZB42.fasta -draft $i ; done 
+for i in *.fasta; do echo $i; java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauve.jar org.gel.mauve.contigs.ContigOrderer -output $i.reordered -ref Bacillus_amyloliquefaciens_KNU-28_.fasta -draft $i ; done
 
 ### Perform MAUVE alignment
 
-progressiveMauve --output=Bacillus_EU07_clade.xmfa Bacillus_amyloliquefaciens_ALB79.fasta   Bacillus_amyloliquefaciens_FS1092.fasta   Bacillus_velezensis_A4P130.fasta        Bacillus_velezensis_CHBv2.fasta    Bacillus_velezensis_FZB42.fasta Bacillus_amyloliquefaciens_BK.fasta      Bacillus_amyloliquefaciens_INH2-4b.fasta  Bacillus_velezensis_BE2.fasta           Bacillus_velezensis_DE0189_.fasta  Bacillus_velezensis_QST713_.fasta Bacillus_amyloliquefaciens_BS006_.fasta  Bacillus_amyloliquefaciens_KNU-28_.fasta  Bacillus_velezensis_CFSAN034339_.fasta  Bacillus_velezensis_DMW1.fasta     EU07.fasta
-
-
-
+progressiveMauve --output=Bacillus_EU07_clade.xmfa *.fasta
 
 ```
 
