@@ -101,15 +101,17 @@ phame ./Bacillus_velezensis_EU07.phame.ctl
 
 ```
 PhaME creates the following output tree files:
-- [Bacillus_velezensis_EU07_all.fasttree](./Bacillus_velezensis_EU07_all.fasttree)
-- [Bacillus_velezensis_EU07_all_snp_alignment.fna.iqtree](./Bacillus_velezensis_EU07_all_snp_alignment.fna.iqtree)
-- [Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile](./Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile)
-- [Bacillus_velezensis_EU07_all_snp_alignment.fna.boottrees](./Bacillus_velezensis_EU07_all_snp_alignment.fna.boottrees)
-- [Bacillus_velezensis_EU07_all_snp_alignment.fna.contree](./Bacillus_velezensis_EU07_all_snp_alignment.fna.contree)
-- [RAxML_bestTree.Bacillus_velezensis_EU07_all](./RAxML_bestTree.Bacillus_velezensis_EU07_all)
-- [RAxML_bootstrap.Bacillus_velezensis_EU07_all_b](./RAxML_bootstrap.Bacillus_velezensis_EU07_all_b)
-- [RAxML_parsimonyTree.Bacillus_velezensis_EU07_all](./RAxML_parsimonyTree.Bacillus_velezensis_EU07_all)
-- [RAxML_result.Bacillus_velezensis_EU07_all](./RAxML_result.Bacillus_velezensis_EU07_all)
+- FastTree:
+  - [Bacillus_velezensis_EU07_all.fasttree](./Bacillus_velezensis_EU07_all.fasttree)
+- IQtree:
+  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile](./Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile)
+  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.boottrees](./Bacillus_velezensis_EU07_all_snp_alignment.fna.boottrees)
+  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.contree](./Bacillus_velezensis_EU07_all_snp_alignment.fna.contree)
+- RAxML:
+  - [RAxML_bestTree.Bacillus_velezensis_EU07_all](./RAxML_bestTree.Bacillus_velezensis_EU07_all)
+  - [RAxML_bootstrap.Bacillus_velezensis_EU07_all_b](./RAxML_bootstrap.Bacillus_velezensis_EU07_all_b)
+  - [RAxML_parsimonyTree.Bacillus_velezensis_EU07_all](./RAxML_parsimonyTree.Bacillus_velezensis_EU07_all)
+  - [RAxML_result.Bacillus_velezensis_EU07_all](./RAxML_result.Bacillus_velezensis_EU07_all)
   
 ### As an alternative to PhaME, we can also use REALPHY for phylogenomic analysis:
 REALPHY requires a [config.txt](./config.txt) file.
