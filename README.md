@@ -1,22 +1,24 @@
-# bacillus_EU07
-Bioinformatics analysis to support manuscript submitted to Access Microbiology
+# Genome sequence of the plant growth-promoting bacterium _Bacillus velezensis_ EU07
+This repo accompanies our manuscript submitted to _Access Microbiology_: 
 
+Genome sequence plant-growth-promoting bacterium Bacillus velezensis EU07.
+Ömür Baysal, David J. Studholme, Catherine Jimenez-Quiros & Mahmut Tör.
+
+Here you can find details of the command lines used to perform the analyses presented in that manuscript.
+
+### First, get this repo:
 ```
-conda  create -n fastani_env fastani
-
-conda create -n phame_env phame
-
-```
-
-```
-### Get this repo
 git clone https://github.com/davidjstudholme/bacillus_EU07.git
+```
 
-### Download NCBI Datasets command line tools
+### Download _datasets_ from NCBI command-line tools:
+```
 curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v1/linux-amd64/datasets'
-chmod u+x datasets 
+chmod u+x datasets
+```
 
-### Create genomes directory and download genome assemblies 
+### Create genomes directory and download genome assemblies:
+```
 mkdir all_genomes
 cd all_genomes
 
@@ -29,59 +31,68 @@ ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 ls *.fna
 
 cd ..
+```
 
+### Create a Conda environment for fastANI analysis:
+```
+conda  create -n fastani_env fastani
+```
 
-### Create directory and perform ANI analysis
+### Create directory and perform ANI analysis:
+```
 mkdir fastani
 cd fastani/
 ln -s ../bacillus_EU07/query_list.txt .
 ln -s ../bacillus_EU07/ref_list.txt .
 conda activate fastani_env
 fastANI --ql query_list.txt --rl ref_list.txt -o all-versus-all.fastANI.out -t 6 --visualize --matrix
+```
 
-
-
-### Rename genome sequence files with strain names
+### In preparation for phylogenomics analysis, rename genome sequence files with strain names:
+```
 cd all_genomes/
 ln -s ../bacillus_EU07/rename_files.pl .
 ln -s ../bacillus_EU07/genomes_for_phame.txt .
+```
 
-### Set-up the ref/ directory
+### Set-up the ref/ directory:
+```
 mkdir ref
 cd ref
 ln -s ln -s ../all_genomes/DSM7.fasta .
 cd ..
+```
 
-### Set-up the workdir/ directory
+### Set-up the workdir/ directory:
+```
 mkdir workdir
 cd workdir
 ln -s ../all_genomes/*.contig .
 rm DSM7.contig
 cd ..
+```
 
-### Get config file for PhaME
+### Get config file for PhaME from the local copy of this repo:
+```
 ln -s ./bacillus_EU07/phame.ctl .
+```
 
+### Create a Conda environment in which to run PhaME:
+```
+conda create -n phame_env phame
+```
 
-### Run PhaME
-### Shakya, M., Ahmed, S.A., Davenport, K.W. et al. 
-### Standardized phylogenetic and molecular evolutionary analysis applied to species across the microbial tree of life. 
-### Sci Rep 10, 1723 (2020). 
-### https://doi.org/10.1038/s41598-020-58356-1
-
+### Run PhaME:
+Shakya, M., Ahmed, S.A., Davenport, K.W. et al. Standardized phylogenetic and molecular evolutionary analysis applied to species across the microbial tree of life. 
+_Sci Rep_ 10, 1723 (2020). https://doi.org/10.1038/s41598-020-58356-1.
+```
 screen
 conda activate phame_env
 ln -s .//bacillus_EU07/Bacillus_velezensis_EU07.phame.ctl .
 phame ./Bacillus_velezensis_EU07.phame.ctl
 
 ```
-
-
-
-
-
-
-
+### As an alternative to PhaME, we can also use REALPHY for phylogenomic analysis:
 
 ```
 mkdir realphy
@@ -97,7 +108,6 @@ cd realphy_output/
 ln -s ../../bacillus_EU07/config.txt .
 cd ..
 
-
 conda create -n realphy_env
 conda activate realphy_env
 conda install -c bioconda realphy
@@ -107,45 +117,29 @@ conda install raxml
 
 conda activate realphy_env
 realphy genomes_for_realphy realphy_output -ref Bacillus_amyloliquefaciens_DSM7 
-
-
 ```
 
-
-
-
+### Use MAUVE contig mover to re-order contigs against reference genome:
+Assumes that we have installed mauve-aligner package with sudo apt-get install and downloaded Mauve.jar from https://darlinglab.org/mauve/download.html
+Also assumes that we have the genomic DNA fasta files in the current working directory.
 ```
-### Use MAUVE contig mover to re-order contigs against reference genome
-# Assumes that we have installed mauve-aligner package with sudo apt-get install and downloaded Mauve.jar from https://darlinglab.org/mauve/download.html
-# Also assumes that we have the genomic DNA fasta files in the current working directory.
-
 for i in *.fasta; do echo $i; java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauve.jar org.gel.mauve.contigs.ContigOrderer -output $i.reordered -ref Bacillus_amyloliquefaciens_KNU-28_.fasta -draft $i ; done
+```
 
-### Perform MAUVE alignment
-
+### Perform MAUVE alignment:
+```
 progressiveMauve --output=Bacillus_EU07_clade.xmfa *.fasta
 
 ```
 
+### Use Parsnp to compare genomes:
+Assumes that we have already downloaded NCBI _datasets_ command-line tool.
 ```
-### Use Parsnp to compare genomes
-
-### Download NCBI Datasets command line tools
-curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v1/linux-amd64/datasets'
-chmod u+x datasets
-
-~./datasets download genome accession GCF_003073255.1 --include-gbff
+./datasets download genome accession GCF_003073255.1 --include-gbff
 unzip ncbi_dataset.zip
 ln -s ncbi_dataset/data/GCF_003073255.1/genomic.gbff ./QST713.gbk
 
 ./parsnp -g ./QST713.gbk -d ./genomes -p 4
-
-
-
-
-
-
-
 ```
   
 
