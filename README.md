@@ -144,6 +144,8 @@ for i in *.fasta; do echo $i; java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauv
 ```
 progressiveMauve --output=Bacillus_EU07_clade.xmfa *.fasta
 ```
+A gzipped output file Bacillus_EU07_clade.xmfa can be found here: [Bacillus_EU07_clade.xmfa.gz](./Bacillus_EU07_clade.xmfa.gz).
+
 
 ### Use Parsnp to compare genomes:
 Assumes that we have already downloaded NCBI _datasets_ command-line tool.
@@ -155,7 +157,7 @@ ln -s ncbi_dataset/data/GCF_003073255.1/genomic.gbff ./QST713.gbk
 ./parsnp -g ./QST713.gbk -d ./genomes -p 4
 ```
 
-The resulting Parsnp output file can then be opened in Gingr and the variants exported in VCF format:
+The resulting Parsnp output file [parsnp.ggr](./parsnp.ggr) can then be opened in Gingr and the variants exported in VCF format:
 - [variants.vcf](./variants.vcf)
 
   
