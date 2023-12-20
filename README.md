@@ -18,6 +18,7 @@ chmod u+x datasets
 ```
 
 ### Create genomes directory and download genome assemblies:
+Assumes that we have a list of the required genomes in this file: [all_genomes_09_12_23.txt](./all_genomes_09_12_23.txt)
 ```
 mkdir all_genomes
 cd all_genomes
@@ -47,6 +48,11 @@ ln -s ../bacillus_EU07/ref_list.txt .
 conda activate fastani_env
 fastANI --ql query_list.txt --rl ref_list.txt -o all-versus-all.fastANI.out -t 6 --visualize --matrix
 ```
+This generates the following fastANI output files:
+[all-versus-all.fastANI.out](./all-versus-all.fastANI.out)
+[all-versus-all.fastANI.out.matrix](./all-versus-all.fastANI.out.matrix)
+
+
 
 ### In preparation for phylogenomics analysis, rename genome sequence files with strain names:
 ```
@@ -72,7 +78,7 @@ rm DSM7.contig
 cd ..
 ```
 
-### Get config file for PhaME from the local copy of this repo:
+### Get [config file](./Bacillus_velezensis_EU07.phame.ctl) for PhaME from the local copy of this repo:
 ```
 ln -s ./bacillus_EU07/phame.ctl .
 ```
@@ -92,6 +98,12 @@ ln -s .//bacillus_EU07/Bacillus_velezensis_EU07.phame.ctl .
 phame ./Bacillus_velezensis_EU07.phame.ctl
 
 ```
+PhaME creates the following output tree files:
+[Bacillus_velezensis_EU07_all.fasttree](./Bacillus_velezensis_EU07_all.fasttree)
+[Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile](./Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile)
+
+
+
 ### As an alternative to PhaME, we can also use REALPHY for phylogenomic analysis:
 
 ```
@@ -143,7 +155,7 @@ ln -s ncbi_dataset/data/GCF_003073255.1/genomic.gbff ./QST713.gbk
 ```
 
 The resulting Parsnp output file can then be opened in Gingr and the variants exported in VCF format:
-[variants.vcf](./variants.vcf)!
+[variants.vcf](./variants.vcf)
 
   
 
