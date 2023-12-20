@@ -143,7 +143,6 @@ for i in *.fasta; do echo $i; java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauv
 ### Perform MAUVE alignment:
 ```
 progressiveMauve --output=Bacillus_EU07_clade.xmfa *.fasta
-
 ```
 
 ### Use Parsnp to compare genomes:
