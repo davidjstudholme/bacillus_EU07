@@ -1,6 +1,4 @@
 
-
-```
 ### Trim Galore version: 0.6.7
 ### Cutadapt version: 3.5
 
