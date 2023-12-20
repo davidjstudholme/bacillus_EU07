@@ -1,0 +1,267 @@
+IQ-TREE 2.2.6 COVID-edition built Dec  8 2023
+
+Input file name: /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/Bacillus_velezensis_EU07_all_snp_alignment.fna
+Type of analysis: ModelFindernon-parametric bootstrap (1000 replicates)
+Random seed number: 752880
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 38 sequences with 315649 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 134787
+Number of distinct site patterns: 32232
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+F+ASC+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+F+ASC+G4    -2169982.360 4340126.720 +    0.718 4340126.762 +    0.718 4340990.373 +    0.998
+GTR+F+ASC+G4    -2169982.295 4340128.590 +    0.282 4340128.633 +    0.282 4341002.906 -   0.0019
+SYM+ASC+G4      -2171908.333 4343974.666 -        0 4343974.706 -        0 4344816.995 -        0
+TVMe+ASC+G4     -2171917.738 4343991.476 -        0 4343991.515 -        0 4344823.142 -        0
+TPM3u+F+ASC+G4  -2172454.136 4345066.272 -        0 4345066.312 -        0 4345908.601 -        0
+TIM3+F+ASC+G4   -2172455.264 4345070.528 -        0 4345070.569 -        0 4345923.519 -        0
+TPM2u+F+ASC+G4  -2172579.573 4345317.146 -        0 4345317.186 -        0 4346159.475 -        0
+TIM2+F+ASC+G4   -2172579.276 4345318.552 -        0 4345318.593 -        0 4346171.543 -        0
+TIMe+ASC+G4     -2172671.807 4345497.614 -        0 4345497.652 -        0 4346318.618 -        0
+K3P+ASC+G4      -2172681.151 4345514.302 -        0 4345514.339 -        0 4346324.643 -        0
+TIM3e+ASC+G4    -2172868.937 4345891.874 -        0 4345891.912 -        0 4346712.878 -        0
+TPM3+ASC+G4     -2172879.022 4345910.044 -        0 4345910.081 -        0 4346720.385 -        0
+TIM2e+ASC+G4    -2172980.873 4346115.746 -        0 4346115.784 -        0 4346936.750 -        0
+TPM2+ASC+G4     -2172989.632 4346131.264 -        0 4346131.301 -        0 4346941.605 -        0
+TNe+ASC+G4      -2173311.203 4346774.406 -        0 4346774.443 -        0 4347584.747 -        0
+K2P+ASC+G4      -2173320.554 4346791.108 -        0 4346791.144 -        0 4347590.787 -        0
+K3Pu+F+ASC+G4   -2173530.044 4347218.088 -        0 4347218.128 -        0 4348060.417 -        0
+TIM+F+ASC+G4    -2173529.998 4347219.996 -        0 4347220.037 -        0 4348072.987 -        0
+HKY+F+ASC+G4    -2174409.856 4348975.712 -        0 4348975.751 -        0 4349807.378 -        0
+TN+F+ASC+G4     -2174409.741 4348977.482 -        0 4348977.522 -        0 4349819.811 -        0
+TVM+F+ASC       -2186175.880 4372511.760 -        0 4372511.801 -        0 4373364.751 -        0
+GTR+F+ASC       -2186176.997 4372515.994 -        0 4372516.036 -        0 4373379.647 -        0
+SYM+ASC         -2187691.828 4375539.656 -        0 4375539.695 -        0 4376371.322 -        0
+TVMe+ASC        -2187700.193 4375554.386 -        0 4375554.424 -        0 4376375.390 -        0
+TIMe+ASC        -2188439.375 4377030.750 -        0 4377030.787 -        0 4377841.091 -        0
+K3P+ASC         -2188448.080 4377046.160 -        0 4377046.196 -        0 4377845.839 -        0
+TPM3u+F+ASC     -2188503.724 4377163.448 -        0 4377163.487 -        0 4377995.114 -        0
+TIM3+F+ASC      -2188503.719 4377165.438 -        0 4377165.478 -        0 4378007.767 -        0
+TPM2u+F+ASC     -2188629.692 4377415.384 -        0 4377415.423 -        0 4378247.050 -        0
+TIM3e+ASC       -2188643.215 4377438.430 -        0 4377438.467 -        0 4378248.771 -        0
+TPM3+ASC        -2188651.570 4377453.140 -        0 4377453.176 -        0 4378252.819 -        0
+TIM2+F+ASC      -2188629.493 4377416.986 -        0 4377417.026 -        0 4378259.315 -        0
+TIM2e+ASC       -2188751.344 4377654.688 -        0 4377654.725 -        0 4378465.029 -        0
+TPM2+ASC        -2188760.422 4377670.844 -        0 4377670.880 -        0 4378470.523 -        0
+TNe+ASC         -2189076.303 4378302.606 -        0 4378302.642 -        0 4379102.285 -        0
+K2P+ASC         -2189085.038 4378318.076 -        0 4378318.111 -        0 4379107.093 -        0
+K3Pu+F+ASC      -2189441.226 4379038.452 -        0 4379038.491 -        0 4379870.118 -        0
+TIM+F+ASC       -2189441.149 4379040.298 -        0 4379040.338 -        0 4379882.627 -        0
+HKY+F+ASC       -2190319.446 4380792.892 -        0 4380792.930 -        0 4381613.896 -        0
+TN+F+ASC        -2190319.345 4380794.690 -        0 4380794.729 -        0 4381626.356 -        0
+TVMe            -2264514.974 4529183.948 -        0 4529183.986 -        0 4530004.952 -        0
+SYM             -2264511.892 4529179.784 -        0 4529179.823 -        0 4530011.450 -        0
+TVM+F           -2264504.854 4529169.708 -        0 4529169.749 -        0 4530022.699 -        0
+GTR+F           -2264506.464 4529174.928 -        0 4529174.970 -        0 4530038.581 -        0
+GTR+F+G4        -2264516.592 4529197.184 -        0 4529197.227 -        0 4530071.500 -        0
+TPM3            -2265669.891 4531489.782 -        0 4531489.818 -        0 4532289.461 -        0
+TIM3e           -2265667.089 4531486.178 -        0 4531486.215 -        0 4532296.519 -        0
+TPM2            -2265796.343 4531742.686 -        0 4531742.722 -        0 4532542.365 -        0
+TIM2e           -2265792.705 4531737.410 -        0 4531737.447 -        0 4532547.751 -        0
+K3P             -2265818.977 4531787.954 -        0 4531787.990 -        0 4532587.633 -        0
+TIMe            -2265815.824 4531783.648 -        0 4531783.685 -        0 4532593.989 -        0
+TPM3u+F         -2266326.506 4532809.012 -        0 4532809.051 -        0 4533640.678 -        0
+TIM3+F          -2266326.356 4532810.712 -        0 4532810.752 -        0 4533653.041 -        0
+K2P             -2266402.858 4532953.716 -        0 4532953.751 -        0 4533742.733 -        0
+TNe             -2266399.654 4532949.308 -        0 4532949.344 -        0 4533748.987 -        0
+TPM2u+F         -2266468.897 4533093.794 -        0 4533093.833 -        0 4533925.460 -        0
+TIM2+F          -2266469.013 4533096.026 -        0 4533096.066 -        0 4533938.355 -        0
+K3Pu+F          -2266918.899 4533993.798 -        0 4533993.837 -        0 4534825.464 -        0
+TIM+F           -2266918.705 4533995.410 -        0 4533995.450 -        0 4534837.739 -        0
+HKY+F           -2267702.163 4535558.326 -        0 4535558.364 -        0 4536379.330 -        0
+TN+F            -2267702.089 4535560.178 -        0 4535560.217 -        0 4536391.844 -        0
+JC+ASC+G4       -2287453.436 4575054.872 -        0 4575054.907 -        0 4575843.889 -        0
+F81+F+ASC+G4    -2290853.987 4581861.974 -        0 4581862.012 -        0 4582682.978 -        0
+JC+ASC          -2302272.107 4604690.214 -        0 4604690.248 -        0 4605468.568 -        0
+F81+F+ASC       -2305737.763 4611627.526 -        0 4611627.563 -        0 4612437.867 -        0
+JC              -2386103.131 4772352.262 -        0 4772352.296 -        0 4773130.616 -        0
+F81+F           -2389427.419 4779006.838 -        0 4779006.875 -        0 4779817.179 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+ASC+G4
+
+Rate parameter R:
+
+  A-C: 0.9901
+  A-G: 4.3454
+  A-T: 1.1721
+  C-G: 0.5240
+  C-T: 4.3454
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2258
+  pi(C) = 0.2724
+  pi(G) = 0.2768
+  pi(T) = 0.2249
+
+Rate matrix Q:
+
+  A    -1.142    0.1774    0.7913    0.1734
+  C    0.1471   -0.8854   0.09543    0.6429
+  G    0.6454   0.09389   -0.8873     0.148
+  T    0.1741    0.7786    0.1821    -1.135
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7896
+
+ Category  Relative_rate  Proportion
+  1         0.09334        0.25
+  2         0.4029         0.25
+  3         0.954          0.25
+  4         2.55           0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2169980.1303
+Branches with support >0.0000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----------------------------------------------------------Bacillus_amyloliquefaciens_DSM7
+|
+|                                                                  +--Bacillus_amyloliquefaciens_ALB79_contig
+|                                                               +--| (82)
+|                                                               |  +**Bacillus_velezensis_DMW1_contig
+|                                                            +**| (59)
+|                                                            |  +**Bacillus_amyloliquefaciens_INH2_4b_contig
+|                                                         +--| (84)
+|                                                         |  |     +--Bacillus_amyloliquefaciens_BK_contig
+|                                                         |  |  +**| (72)
+|                                                         |  |  |  |        +--Bacillus_amyloliquefaciens_KNU_28__contig
+|                                                         |  |  |  |     +**| (63)
+|                                                         |  |  |  |     |  +**Bacillus_velezensis_A4P130_contig
+|                                                         |  |  |  |  +**| (5)
+|                                                         |  |  |  |  |  |     +**Bacillus_velezensis_CFSAN034339__contig
+|                                                         |  |  |  |  |  |  +--| (100)
+|                                                         |  |  |  |  |  |  |  +--EU07_contig
+|                                                         |  |  |  |  |  +**| (23)
+|                                                         |  |  |  |  |     +--Bacillus_velezensis_QST713__contig
+|                                                         |  |  |  +**| (15)
+|                                                         |  |  |     |     +--Bacillus_velezensis_BE2_contig
+|                                                         |  |  |     |  +**| (16)
+|                                                         |  |  |     |  |  +--Bacillus_velezensis_DE0189__contig
+|                                                         |  |  |     +**| (4)
+|                                                         |  |  |        +**Bacillus_velezensis_CHBv2_contig
+|                                                         |  +--| (100)
+|                                                         |     +--Bacillus_amyloliquefaciens_FS1092_contig
+|                                                     +---| (100)
+|                                                     |   +--Bacillus_amyloliquefaciens_BS006__contig
+|                                                  +--| (100)
+|                                                  |  +---Bacillus_velezensis_2987tsa1__contig
+|                                               +--| (100)
+|                                               |  |           +--Bacillus_amyloliquefaciens_MN_13__contig
+|                                               |  |        +--| (100)
+|                                               |  |        |  +--Bacillus_velezensis_BA_26_contig
+|                                               |  |     +--| (100)
+|                                               |  |     |  |        +--Bacillus_amyloliquefaciens_TF28__contig
+|                                               |  |     |  |     +--| (100)
+|                                               |  |     |  |     |  +--Bacillus_velezensis_Y_4__contig
+|                                               |  |     |  |  +--| (100)
+|                                               |  |     |  |  |  +--Bacillus_amyloliquefaciens_TPS17__contig
+|                                               |  |     |  +--| (100)
+|                                               |  |     |     +--Bacillus_velezensis_YN_2A_contig
+|                                               |  |  +--| (100)
+|                                               |  |  |  +--Bacillus_velezensis_BPC6__contig
+|                                               |  +--| (100)
+|                                               |     |        +**Bacillus_velezensis_CF57_contig
+|                                               |     |     +--| (100)
+|                                               |     |     |  +**Bacillus_velezensis_HN_Q_8__contig
+|                                               |     |  +--| (63)
+|                                               |     |  |  |     +--Bacillus_velezensis_NRRL_BD_154__contig
+|                                               |     |  |  |  +--| (100)
+|                                               |     |  |  |  |  |  +--Bacillus_velezensis_UCMB5036__contig
+|                                               |     |  |  |  |  +--| (100)
+|                                               |     |  |  |  |     +--Bacillus_velezensis_UCMB5140__contig
+|                                               |     |  |  +--| (100)
+|                                               |     |  |     +--Bacillus_velezensis_NRRL_B_59289__contig
+|                                               |     +--| (100)
+|                                               |        |  +--Bacillus_velezensis_HU_91__contig
+|                                               |        +--| (100)
+|                                               |           +--Bacillus_velezensis_PT4_contig
+|                                           +---| (100)
+|                                           |   +---Bacillus_velezensis_AP194__contig
+|                                        +--| (100)
+|                                        |  |  +------Bacillus_velezensis_FZB42_contig
+|                                        |  +--| (100)
+|                                        |     +------Bacillus_velezensis_KACC_18228_contig
++----------------------------------------| (100)
+|                                        |  +----------Bacillus_velezensis_CBMB205_contig
+|                                        +--| (100)
+|                                           |         +--Bacillus_velezensis_KCTC_13012_contig
+|                                           +---------| (100)
+|                                                     +--Bacillus_velezensis_NRRL_B_41580_contig
+|
++---------------------------------------------------------Bacillus_siamensis_KCTC_13613_contig
+
+
+Consensus tree in newick format: 
+
+(Bacillus_amyloliquefaciens_DSM7:0.1866524963,(((((((((Bacillus_amyloliquefaciens_ALB79_contig:0.0000225322,Bacillus_velezensis_DMW1_contig:0.0000015037)82:0.0000043222,Bacillus_amyloliquefaciens_INH2_4b_contig:0.0000006732)59:0.0000008564,((Bacillus_amyloliquefaciens_BK_contig:0.0000196643,(((Bacillus_amyloliquefaciens_KNU_28__contig:0.0002860367,Bacillus_velezensis_A4P130_contig:0.0000006732)63:0.0000015029,((Bacillus_velezensis_CFSAN034339__contig:0.0000006732,EU07_contig:0.0000519850)100:0.0000127290,Bacillus_velezensis_QST713__contig:0.0000323897)23:0.0000006732)5:0.0000006732,((Bacillus_velezensis_BE2_contig:0.0000028206,Bacillus_velezensis_DE0189__contig:0.0000043222)16:0.0000006732,Bacillus_velezensis_CHBv2_contig:0.0000006732)4:0.0000006732)15:0.0000006732)72:0.0000014972,Bacillus_amyloliquefaciens_FS1092_contig:0.0000884377)100:0.0000295768)84:0.0000375562,Bacillus_amyloliquefaciens_BS006__contig:0.0000845860)100:0.0152602310,Bacillus_velezensis_2987tsa1__contig:0.0146321800)100:0.0041002789,((((Bacillus_amyloliquefaciens_MN_13__contig:0.0000277016,Bacillus_velezensis_BA_26_contig:0.0001884328)100:0.0068704688,(((Bacillus_amyloliquefaciens_TF28__contig:0.0001809535,Bacillus_velezensis_Y_4__contig:0.0000085467)100:0.0000354697,Bacillus_amyloliquefaciens_TPS17__contig:0.0000235273)100:0.0035623164,Bacillus_velezensis_YN_2A_contig:0.0031685281)100:0.0015591839)100:0.0042576741,Bacillus_velezensis_BPC6__contig:0.0079842975)100:0.0059157251,(((Bacillus_velezensis_CF57_contig:0.0000006732,Bacillus_velezensis_HN_Q_8__contig:0.0000006732)100:0.0118564134,((Bacillus_velezensis_NRRL_BD_154__contig:0.0044114074,(Bacillus_velezensis_UCMB5036__contig:0.0001785315,Bacillus_velezensis_UCMB5140__contig:0.0005187251)100:0.0070029330)100:0.0061696885,Bacillus_velezensis_NRRL_B_59289__contig:0.0100469755)100:0.0028876322)63:0.0017944128,(Bacillus_velezensis_HU_91__contig:0.0107465378,Bacillus_velezensis_PT4_contig:0.0113499057)100:0.0043743536)100:0.0019794174)100:0.0024153364)100:0.0043119740,Bacillus_velezensis_AP194__contig:0.0127365695)100:0.0152378282,(Bacillus_velezensis_FZB42_contig:0.0224761841,Bacillus_velezensis_KACC_18228_contig:0.0247841279)100:0.0052695974)100:0.0074504174,(Bacillus_velezensis_CBMB205_contig:0.0364633503,(Bacillus_velezensis_KCTC_13012_contig:0.0000158185,Bacillus_velezensis_NRRL_B_41580_contig:0.0000081260)100:0.0318462613)100:0.0049471127)100:0.1278854163,Bacillus_siamensis_KCTC_13613_contig:0.1819403751);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile -m "TVM{0.990095,4.34541,1.17211,0.524018}+F{0.225809,0.272405,0.27685,0.224935}+ASC+G4{0.789562}" --length 315649
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/Bacillus_velezensis_EU07_all_snp_alignment.fna --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/Bacillus_velezensis_EU07_all_snp_alignment.fna --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Dec 18 04:48:29 2023
+Total CPU time used: 18.576096 seconds (0h:0m:18s)
+Total wall-clock time used: 22.26716113 seconds (0h:0m:22s)
+

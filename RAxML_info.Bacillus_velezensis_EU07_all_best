@@ -1,0 +1,51 @@
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML Bipartition Computation: Drawing support values from trees in file /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bootstrap.Bacillus_velezensis_EU07_all_b onto tree in file /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bestTree.Bacillus_velezensis_EU07_all
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -p 10 -T 1 -f b -m GTRGAMMAI -t /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bestTree.Bacillus_velezensis_EU07_all -s /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/Bacillus_velezensis_EU07_all_snp_alignment.fna -z /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bootstrap.Bacillus_velezensis_EU07_all_b -w /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results -n Bacillus_velezensis_EU07_all_best 
+
+
+
+
+Found 1 tree in File /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bestTree.Bacillus_velezensis_EU07_all
+
+
+
+Found 1000 trees in File /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bootstrap.Bacillus_velezensis_EU07_all_b
+
+
+
+Found 1 tree in File /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bestTree.Bacillus_velezensis_EU07_all
+
+
+
+Time for Computation of Bipartitions 0.157685
+Tree with bipartitions written to file:  /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bipartitions.Bacillus_velezensis_EU07_all_best
+Tree with bipartitions as branch labels written to file:  /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_bipartitionsBranchLabels.Bacillus_velezensis_EU07_all_best
+Execution information file written to :  /data/djs217/PROJECTS/03_Bacillus_EU07/02_phylogenomics/workdir/results/RAxML_info.Bacillus_velezensis_EU07_all_best
