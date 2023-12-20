@@ -141,6 +141,10 @@ ln -s ncbi_dataset/data/GCF_003073255.1/genomic.gbff ./QST713.gbk
 
 ./parsnp -g ./QST713.gbk -d ./genomes -p 4
 ```
+
+The resulting Parsnp output file can then be opened in Gingr and the variants exported in VCF format:
+[variants.vcf](./variants.vcf)!
+
   
 
 
