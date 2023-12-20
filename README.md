@@ -40,6 +40,7 @@ conda  create -n fastani_env fastani
 ```
 
 ### Create directory and perform ANI analysis:
+This requires files [query_list.txt](./query_list.txt) and [ref_list.txt](./ref_list.txt).
 ```
 mkdir fastani
 cd fastani/
@@ -49,12 +50,13 @@ conda activate fastani_env
 fastANI --ql query_list.txt --rl ref_list.txt -o all-versus-all.fastANI.out -t 6 --visualize --matrix
 ```
 This generates the following fastANI output files:
-[all-versus-all.fastANI.out](./all-versus-all.fastANI.out)
-[all-versus-all.fastANI.out.matrix](./all-versus-all.fastANI.out.matrix)
+- [all-versus-all.fastANI.out](./all-versus-all.fastANI.out)
+- [all-versus-all.fastANI.out.matrix](./all-versus-all.fastANI.out.matrix)
 
 
 
 ### In preparation for phylogenomics analysis, rename genome sequence files with strain names:
+This requires [genomes_for_phame.txt](./genomes_for_phame.txt) file that maps accession numbers to strain names.
 ```
 cd all_genomes/
 ln -s ../bacillus_EU07/rename_files.pl .
@@ -99,12 +101,12 @@ phame ./Bacillus_velezensis_EU07.phame.ctl
 
 ```
 PhaME creates the following output tree files:
-[Bacillus_velezensis_EU07_all.fasttree](./Bacillus_velezensis_EU07_all.fasttree)
-[Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile](./Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile)
-
+- [Bacillus_velezensis_EU07_all.fasttree](./Bacillus_velezensis_EU07_all.fasttree)
+- [Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile](./Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile)
 
 
 ### As an alternative to PhaME, we can also use REALPHY for phylogenomic analysis:
+REALPHY requires a [config.txt](./config.txt) file.
 
 ```
 mkdir realphy
@@ -155,7 +157,7 @@ ln -s ncbi_dataset/data/GCF_003073255.1/genomic.gbff ./QST713.gbk
 ```
 
 The resulting Parsnp output file can then be opened in Gingr and the variants exported in VCF format:
-[variants.vcf](./variants.vcf)
+- [variants.vcf](./variants.vcf)
 
   
 
