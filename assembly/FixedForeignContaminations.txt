@@ -1,0 +1,33 @@
+SUBID     	BioProject	BioSample	Organism
+--------------------------------------------------------
+SUB14037981	PRJNA743875	SAMN20062556	Bacillus amyloliquefaciens
+
+[] We ran your sequences through our Contamination Screen. The screen found 
+sequences that need to be trimmed and/or excluded. More details about the 
+contamination screening process are available at https://github.com/ncbi/fcs
+
+We were able to remove sequences marked to exclude and/or trimmed contamination 
+from the ends of sequence (see the FixedForeignContaminations.txt file). If the 
+contamination is on either side of a run of N's, the N's were also removed.
+We have uploaded the modified fasta file ForeignContaminationModified.zip to the 
+submission portal.
+
+All of the sequences labeled as contaminants have been removed or trimmed.  
+You do not need to resubmit.
+
+
+The contamination that was removed automatically is listed below:
+
+File [reordered_scaffolds_fasta_supercontigs00000000.sqn]
+
+Exclude:
+Sequence name, length, apparent source
+scf_2082897_213	796	anml:primates
+scf_2082897_230	652	anml:primates
+scf_2082897_246	498	anml:primates
+scf_2082897_249	467	anml:primates
+scf_2082897_254	439	anml:primates
+scf_2082897_255	430	anml:primates
+
+--------------------------------------------------------------------------------
+
