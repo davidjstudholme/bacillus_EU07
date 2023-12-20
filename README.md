@@ -127,6 +127,26 @@ progressiveMauve --output=Bacillus_EU07_clade.xmfa *.fasta
 
 ```
 
+```
+### Use Parsnp to compare genomes
 
+### Download NCBI Datasets command line tools
+curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v1/linux-amd64/datasets'
+chmod u+x datasets
+
+~./datasets download genome accession GCF_003073255.1 --include-gbff
+unzip ncbi_dataset.zip
+ln -s ncbi_dataset/data/GCF_003073255.1/genomic.gbff ./QST713.gbk
+
+./parsnp -g ./QST713.gbk -d ./genomes -p 4
+
+
+
+
+
+
+
+```
+  
 
 
