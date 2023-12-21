@@ -40,7 +40,7 @@ conda  create -n fastani_env fastani
 ```
 
 ### Create directory and perform ANI analysis:
-This requires files [query_list.txt](./realphy/query_list.txt) and [ref_list.txt](./realphy/ref_list.txt).
+This requires files [query_list.txt](./fastani/query_list.txt) and [ref_list.txt](./fastani/ref_list.txt).
 ```
 mkdir fastani
 cd fastani/
