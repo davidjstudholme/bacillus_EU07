@@ -144,6 +144,9 @@ conda install raxml
 conda activate realphy_env
 realphy genomes_for_realphy realphy_output -ref Bacillus_amyloliquefaciens_DSM7 
 ```
+This generated the following tree file: [polymorphisms_move.phy_phyml_tree](realphy/polymorphisms_move.phy_phyml_tree).
+
+
 
 ### Use MAUVE contig mover to re-order contigs against reference genome:
 Assumes that we have installed mauve-aligner package with sudo apt-get install and downloaded Mauve.jar from https://darlinglab.org/mauve/download.html
