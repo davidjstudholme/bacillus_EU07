@@ -22,7 +22,7 @@ spades.py --careful -1 EU07_r1_val_1.fq.gz -2 EU07_r2_val_2.fq.gz -o EU07.spades
 ```
 
 ### Rename the scaffolds
-This generates new file 'scaffolds.fasta.supercontigs.fna'
+This uses script [split_velvet_supercontigs_into_contigs.pl](./split_velvet_supercontigs_into_contigs.pl) to generate a new file 'scaffolds.fasta.supercontigs.fna' in which the sequence IDs are updated and tiny contigs of less than 50 bp are removed.
 ```
 ./split_velvet_supercontigs_into_contigs.pl  scaffolds.fasta > scaffolds.agp
 ```
