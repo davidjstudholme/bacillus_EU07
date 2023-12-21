@@ -6,6 +6,8 @@ Genome sequence plant-growth-promoting bacterium Bacillus velezensis EU07.
 
 Here you can find details of the command lines used to perform the analyses presented in that manuscript.
 
+The genome sequence was assembled from Illumina MiSeq reads using SPAdes, as described here: [README_assembly.md](./assembly/README_assembly.md).
+
 ### First, get this repo:
 ```
 git clone https://github.com/davidjstudholme/bacillus_EU07.git
