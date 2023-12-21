@@ -7,7 +7,7 @@ The genome sequence of plant-growth-promoting bacterium _Bacillus velezensis_ EU
 ### Genome sequence assembly
 Here you can find details of the command lines used to perform the analyses presented in that manuscript.
 
-The genome sequence was previously assembled from Illumina MiSeq reads using SPAdes, as described here: [README_assembly.md](./assembly/README_assembly.md) and submitted to GenBank, via NCBI.
+The genome sequence was previously assembled from Illumina MiSeq reads using SPAdes, as described here: [README_assembly.md](./assembly/README.md) and submitted to GenBank, via NCBI.
 It is accessible here: https://www.ncbi.nlm.nih.gov/nuccore/JAIFZJ000000000.
 
 ### First, get this repo:
