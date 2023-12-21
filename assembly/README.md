@@ -1,3 +1,4 @@
+# Assembly of the _B. velezensis_ EU07 genome from Illumina MiSeq reads
 
 ### Trim Galore version: 0.6.7 and Cutadapt version: 3.5
 ```
