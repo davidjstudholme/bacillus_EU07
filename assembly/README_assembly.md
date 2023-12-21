@@ -3,6 +3,11 @@
 ```
 trim_galore --paired -q 30 EU07_r1.fq.gz  EU07_r2.fq.gz
 ```
+
+Trim Galore reports are provided here:
+- [EU07_r1.fq.gz_trimming_report.txt](../qc/EU07_r1.fq.gz_trimming_report.txt) Read 1
+- [EU07_r2.fq.gz_trimming_report.txt](../qc/EU07_r2.fq.gz_trimming_report.txt) Read 2
+
 FASTQC results are provided here for reads before and after trimming:
 - [EU07_r1_fastqc.html](../qc/EU07_r1_fastqc.html) Read 1 pre-trimming
 - [EU07_r2_fastqc.html](../qc/EU07_r2_fastqc.html) Read 2 pre-trimming
