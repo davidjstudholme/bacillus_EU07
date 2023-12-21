@@ -106,16 +106,16 @@ phame ./Bacillus_velezensis_EU07.phame.ctl
 ```
 PhaME creates the following output tree files:
 - FastTree:
-  - [Bacillus_velezensis_EU07_all.fasttree](./Bacillus_velezensis_EU07_all.fasttree)
+  - [Bacillus_velezensis_EU07_all.fasttree](./phame/Bacillus_velezensis_EU07_all.fasttree)
 - IQtree:
-  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile](./Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile)
-  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.boottrees](./Bacillus_velezensis_EU07_all_snp_alignment.fna.boottrees)
-  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.contree](./Bacillus_velezensis_EU07_all_snp_alignment.fna.contree)
+  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile](./phame/Bacillus_velezensis_EU07_all_snp_alignment.fna.treefile)
+  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.boottrees](./phame/Bacillus_velezensis_EU07_all_snp_alignment.fna.boottrees)
+  - [Bacillus_velezensis_EU07_all_snp_alignment.fna.contree](./phame/Bacillus_velezensis_EU07_all_snp_alignment.fna.contree)
 - RAxML:
-  - [RAxML_bestTree.Bacillus_velezensis_EU07_all](./RAxML_bestTree.Bacillus_velezensis_EU07_all)
-  - [RAxML_bootstrap.Bacillus_velezensis_EU07_all_b](./RAxML_bootstrap.Bacillus_velezensis_EU07_all_b)
-  - [RAxML_parsimonyTree.Bacillus_velezensis_EU07_all](./RAxML_parsimonyTree.Bacillus_velezensis_EU07_all)
-  - [RAxML_result.Bacillus_velezensis_EU07_all](./RAxML_result.Bacillus_velezensis_EU07_all)
+  - [RAxML_bestTree.Bacillus_velezensis_EU07_all](./phame/RAxML_bestTree.Bacillus_velezensis_EU07_all)
+  - [RAxML_bootstrap.Bacillus_velezensis_EU07_all_b](./phame/RAxML_bootstrap.Bacillus_velezensis_EU07_all_b)
+  - [RAxML_parsimonyTree.Bacillus_velezensis_EU07_all](./phame/RAxML_parsimonyTree.Bacillus_velezensis_EU07_all)
+  - [RAxML_result.Bacillus_velezensis_EU07_all](./phame/RAxML_result.Bacillus_velezensis_EU07_all)
   
 ### As an alternative to PhaME, we can also use REALPHY for phylogenomic analysis:
 REALPHY requires a [config.txt](./realphy/config.txt) file.
