@@ -1,0 +1,1 @@
+../all_genomes/GCA_019997305.1_ASM1999730v1_genomic.fna
