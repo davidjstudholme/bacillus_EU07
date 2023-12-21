@@ -18,12 +18,12 @@ chmod u+x datasets
 ```
 
 ### Create genomes directory and download genome assemblies:
-Assumes that we have a list of the required genomes in this file: [all_genomes_09_12_23.txt](./all_genomes_09_12_23.txt)
+Assumes that we have a list of the required genomes in this file: [all_genomes_09_12_23.txt](./phame/all_genomes_09_12_23.txt)
 ```
 mkdir all_genomes
 cd all_genomes
 
-ln -s ../bacillus_EU07/all_genomes_09_12_23.txt .
+ln -s ../bacillus_EU07/phame/all_genomes_09_12_23.txt .
 ln -s ../datasets .
 ./datasets download genome accession --inputfile all_genomes_09_12_23.txt --exclude-gff3 --exclude-protein --exclude-rna --exclude-genomic-cds --filename all_genomes_09_12_23.txt.zip
 
