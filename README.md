@@ -1,6 +1,8 @@
 # Genome sequence of the plant growth-promoting bacterium _Bacillus velezensis_ EU07
 This repo accompanies our manuscript submitted to _Access Microbiology_: 
 
+
+### Genome sequence assembly
 Genome sequence plant-growth-promoting bacterium Bacillus velezensis EU07.
 Ömür Baysal, David J. Studholme, Catherine Jimenez-Quiros & Mahmut Tör.
 
