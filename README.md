@@ -1,11 +1,10 @@
 # Genome sequence of the plant growth-promoting bacterium _Bacillus velezensis_ EU07
 This repo accompanies our manuscript submitted to _Access Microbiology_: 
 
-
-### Genome sequence assembly
-Genome sequence plant-growth-promoting bacterium Bacillus velezensis EU07.
+The genome sequence of plant-growth-promoting bacterium _Bacillus velezensis_ EU07.
 Ömür Baysal, David J. Studholme, Catherine Jimenez-Quiros & Mahmut Tör.
 
+### Genome sequence assembly
 Here you can find details of the command lines used to perform the analyses presented in that manuscript.
 
 The genome sequence was previously assembled from Illumina MiSeq reads using SPAdes, as described here: [README_assembly.md](./assembly/README_assembly.md) and submitted to GenBank, via NCBI.
