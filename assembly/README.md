@@ -16,7 +16,7 @@ FASTQC results are provided here for reads before and after trimming:
 - [EU07_r2_val_2_fastqc.html](../qc/EU07_r2_val_2_fastqc.html) Read 2 post-trimming
 
 
-### SPAdes v3.13.1
+### _De-novo_ assembly using SPAdes v3.13.1
 ```
 spades.py --careful -1 EU07_r1_val_1.fq.gz -2 EU07_r2_val_2.fq.gz -o EU07.spades
 ```
