@@ -80,9 +80,9 @@ rm DSM7.contig
 cd ..
 ```
 
-### Get [config file](./Bacillus_velezensis_EU07.phame.ctl) for PhaME from the local copy of this repo:
+### Get [config file](./phame/Bacillus_velezensis_EU07.phame.ctl) for PhaME from the local copy of this repo:
 ```
-ln -s ./bacillus_EU07/phame.ctl .
+ln -s ./bacillus_EU07/phame/phame.ctl .
 ```
 
 ### Create a Conda environment in which to run PhaME:
