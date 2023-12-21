@@ -56,11 +56,11 @@ This generates the following fastANI output files:
 
 
 ### In preparation for phylogenomics analysis, rename genome sequence files with strain names:
-This requires [genomes_for_phame.txt](./genomes_for_phame.txt) file that maps accession numbers to strain names.
+This requires [genomes_for_phame.txt](./phame/genomes_for_phame.txt) file that maps accession numbers to strain names.
 ```
 cd all_genomes/
-ln -s ../bacillus_EU07/rename_files.pl .
-ln -s ../bacillus_EU07/genomes_for_phame.txt .
+ln -s ../bacillus_EU07/phame/rename_files.pl .
+ln -s ../bacillus_EU07/phame/genomes_for_phame.txt .
 ```
 
 ### Set-up the ref/ directory:
