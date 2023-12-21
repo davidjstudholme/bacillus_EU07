@@ -35,5 +35,6 @@ java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauve.jar org.gel.mauve.contigs.Co
 This generated the reordered version of the assembly: [reordered.scaffolds.fasta.supercontigs.fna](./reordered.scaffolds.fasta.supercontigs.fna).
 
 After submission to NCBI, they removed several contaminated contigs to generate this file: [reordered_scaffolds_fasta_supercontigs00000000.fsa](./reordered_scaffolds_fasta_supercontigs00000000.fsa).
+The list of contaminated contigs, detected and removed by NCBI, can be found here: [FixedForeignContaminations.txt](./FixedForeignContaminations.txt).
 
 
