@@ -50,8 +50,8 @@ conda activate fastani_env
 fastANI --ql query_list.txt --rl ref_list.txt -o all-versus-all.fastANI.out -t 6 --visualize --matrix
 ```
 This generates the following fastANI output files:
-- [all-versus-all.fastANI.out](./all-versus-all.fastANI.out)
-- [all-versus-all.fastANI.out.matrix](./all-versus-all.fastANI.out.matrix)
+- [all-versus-all.fastANI.out](./fastani/all-versus-all.fastANI.out)
+- [all-versus-all.fastANI.out.matrix](./fastani/all-versus-all.fastANI.out.matrix)
 
 
 
@@ -114,7 +114,7 @@ PhaME creates the following output tree files:
   - [RAxML_result.Bacillus_velezensis_EU07_all](./RAxML_result.Bacillus_velezensis_EU07_all)
   
 ### As an alternative to PhaME, we can also use REALPHY for phylogenomic analysis:
-REALPHY requires a [config.txt](./config.txt) file.
+REALPHY requires a [config.txt](./realphy/config.txt) file.
 
 ```
 mkdir realphy
@@ -127,7 +127,7 @@ cd ..
 
 mkdir realphy_output
 cd realphy_output/
-ln -s ../../bacillus_EU07/config.txt .
+ln -s ../../bacillus_EU07/realphy/config.txt .
 cd ..
 
 conda create -n realphy_env
@@ -152,7 +152,7 @@ for i in *.fasta; do echo $i; java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauv
 ```
 progressiveMauve --output=Bacillus_EU07_clade.xmfa *.fasta
 ```
-A gzipped output file Bacillus_EU07_clade.xmfa can be found here: [Bacillus_EU07_clade.xmfa.gz](./Bacillus_EU07_clade.xmfa.gz).
+A gzipped output file Bacillus_EU07_clade.xmfa can be found here: [Bacillus_EU07_clade.xmfa.gz](./mauve/Bacillus_EU07_clade.xmfa.gz).
 
 
 ### Use Parsnp to compare genomes:
@@ -165,8 +165,8 @@ ln -s ncbi_dataset/data/GCF_003073255.1/genomic.gbff ./QST713.gbk
 ./parsnp -g ./QST713.gbk -d ./genomes -p 4
 ```
 
-The resulting Parsnp output file [parsnp.ggr](./parsnp.ggr) can then be opened in Gingr and the variants exported in VCF format:
-- [variants.vcf](./variants.vcf)
+The resulting Parsnp output file [parsnp.ggr](./harvest/parsnp.ggr) can then be opened in Gingr and the variants exported in VCF format:
+- [variants.vcf](./harvest/variants.vcf)
 
   
 
