@@ -26,10 +26,9 @@ This uses script [split_velvet_supercontigs_into_contigs.pl](./split_velvet_supe
 ```
 ./split_velvet_supercontigs_into_contigs.pl  scaffolds.fasta > scaffolds.agp
 ```
+This generates re-ordered version of the assembly, ready for submission to NCBI: [scaffolds.fasta.supercontigs.fna](./scaffolds.fasta.supercontigs.fna).
 
-### Re-order the scaffolds against the FZB42 reference genome
-This generates re-ordered version of the assembly, ready for submission to NCBI
-./scaffolds.fasta.supercontigs.fna.reordered/alignment9/scaffolds.fasta.supercontigs.fna
+### Re-order the scaffolds against the FZB42 reference genome using Mauve
 ```
 java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauve.jar org.gel.mauve.contigs.ContigOrderer -output scaffolds.fasta.supercontigs.fna.reordered -ref Bacillus_velezensis_FZB42.fasta -draft scaffolds.fasta.supercontigs.fna 
 ```
