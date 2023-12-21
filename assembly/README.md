@@ -33,5 +33,6 @@ This generates re-ordered version of the assembly, ready for submission to NCBI:
 java -Xmx500m -cp ./mauve_snapshot_2015-02-13/Mauve.jar org.gel.mauve.contigs.ContigOrderer -output scaffolds.fasta.supercontigs.fna.reordered -ref Bacillus_velezensis_FZB42.fasta -draft scaffolds.fasta.supercontigs.fna 
 ```
 
+After submission to NCBI, they removed several contaminated contigs to generate this file: [reordered_scaffolds_fasta_supercontigs00000000.fsa](./reordered_scaffolds_fasta_supercontigs00000000.fsa).
 
 
