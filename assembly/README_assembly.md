@@ -1,9 +1,13 @@
 
 ### Trim Galore version: 0.6.7 and Cutadapt version: 3.5
-
 ```
 trim_galore --paired -q 30 EU07_r1.fq.gz  EU07_r2.fq.gz
 ```
+FASTQC results are provided here for reads before and after trimming:
+- [EU07_r1_fastqc.html](../qc/EU07_r1_fastqc.html) Read 1 pre-trimming
+- [EU07_r2_fastqc.html](../qc/EU07_r2_fastqc.html) Read 2 pre-trimming
+- [EU07_r1_val_1_fastqc.html](../qc/EU07_r1_val_1_fastqc.html) Read 1 post-trimming
+- [EU07_r2_val_2_fastqc.html)](../qc/EU07_r2_val_2_fastqc.html) Read 2 post-trimming
 
 
 ### SPAdes v3.13.1
