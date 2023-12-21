@@ -1,6 +1,6 @@
 # Assembly of the _B. velezensis_ EU07 genome from Illumina MiSeq reads
 
-### Trim and filter the data using Trim Galore version: 0.6.7 and Cutadapt version: 3.5
+### Trim and filter the data using Trim Galore version: 0.6.7 (Cutadapt version: 3.5)
 ```
 trim_galore --paired -q 30 EU07_r1.fq.gz  EU07_r2.fq.gz
 ```
