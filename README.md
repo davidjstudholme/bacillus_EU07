@@ -1,11 +1,13 @@
 # Genome sequence of the plant growth-promoting bacterium _Bacillus velezensis_ EU07
-This repo accompanies our manuscript submitted to _Access Microbiology_: 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10968102.svg)](https://doi.org/10.5281/zenodo.10968102)
+
+This repo accompanies our manuscript submitted to _Access Microbiology: 
 
 The genome sequence of plant-growth-promoting bacterium _Bacillus velezensis_ EU07.
 Ömür Baysal, David J. Studholme, Catherine Jimenez-Quiros & Mahmut Tör.
 
 https://www.microbiologyresearch.org/content/journal/acmi/10.1099/acmi.0.000762.v1
-
 
 ### Genome sequence assembly
 Here you can find details of the command lines used to perform the analyses presented in that manuscript.
