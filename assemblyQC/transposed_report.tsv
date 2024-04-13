@@ -1,0 +1,3 @@
+Assembly	# contigs (>= 0 bp)	# contigs (>= 1000 bp)	# contigs (>= 5000 bp)	# contigs (>= 10000 bp)	# contigs (>= 25000 bp)	# contigs (>= 50000 bp)	Total length (>= 0 bp)	Total length (>= 1000 bp)	Total length (>= 5000 bp)	Total length (>= 10000 bp)	Total length (>= 25000 bp)	Total length (>= 50000 bp)	# contigs	Largest contig	Total length	GC (%)	N50	N90	auN	L50	L90	# N's per 100 kbp
+GCA_019997305.2_ASM1999730v2_genomic	259	205	122	91	53	28	4167230	4134783	3940934	3723926	3118536	2184205	243	158427	4161333	45.99	52820	9319	56663.4	27	94	2.26
+GCA_019997305.2_ASM1999730v2_genomic_broken	-	206	122	91	53	28	-	4134689	3940934	3723926	3118536	2184205	244	158427	4161239	45.99	52820	9319	56662.3	27	94	0.00

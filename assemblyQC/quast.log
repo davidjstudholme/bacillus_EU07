@@ -1,0 +1,68 @@
+/data/djs217/anaconda3/envs/quast_env/bin/quast.py -s GCA_019997305.2_ASM1999730v2_genomic.fna
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.15.0-101-generic-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.10.13
+  CPUs number: 32
+
+Started: 2024-04-13 08:35:22
+
+Logging to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/quast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa
+Main parameters: 
+  MODE: default, threads: 8, split scaffolds: true, min contig length: 500, min alignment length: 65, \
+  min alignment IDY: 95.0, ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  GCA_019997305.2_ASM1999730v2_genomic.fna ==> GCA_019997305.2_ASM1999730v2_genomic
+    breaking scaffolds into contigs:
+      243 scaffolds (GCA_019997305.2_ASM1999730v2_genomic) were broken into 244 contigs (GCA_019997305.2_ASM1999730v2_genomic_broken)
+
+2024-04-13 08:35:28
+Running Basic statistics processor...
+  Contig files: 
+    1  GCA_019997305.2_ASM1999730v2_genomic
+    2  GCA_019997305.2_ASM1999730v2_genomic_broken
+  Calculating N50 and L50...
+    1  GCA_019997305.2_ASM1999730v2_genomic, N50 = 52820, L50 = 27, auN = 56663.4, Total length = 4161333, GC % = 45.99, # N's per 100 kbp =  2.26
+    2  GCA_019997305.2_ASM1999730v2_genomic_broken, N50 = 52820, L50 = 27, auN = 56662.3, Total length = 4161239, GC % = 45.99, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/basic_stats/GC_content_plot.pdf
+  Drawing GCA_019997305.2_ASM1999730v2_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/basic_stats/GCA_019997305.2_ASM1999730v2_genomic_GC_content_plot.pdf
+  Drawing GCA_019997305.2_ASM1999730v2_genomic_broken GC content plot...
+    saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/basic_stats/GCA_019997305.2_ASM1999730v2_genomic_broken_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-04-13 08:35:32
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-04-13 08:35:32
+RESULTS:
+  Text versions of total report are saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/report.html
+  PDF version (tables and plots) is saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/report.pdf
+  Icarus (contig browser) is saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/icarus.html
+  Log is saved to /data/djs217/PROJECTS/03_Bacillus_EU07/09_bwa/quast_results/results_2024_04_13_08_35_22/quast.log
+
+Finished: 2024-04-13 08:35:32
+Elapsed time: 0:00:10.687049
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

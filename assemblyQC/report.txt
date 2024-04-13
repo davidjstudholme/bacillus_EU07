@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    GCA_019997305.2_ASM1999730v2_genomic  GCA_019997305.2_ASM1999730v2_genomic_broken
+# contigs (>= 0 bp)         259                                   -                                          
+# contigs (>= 1000 bp)      205                                   206                                        
+# contigs (>= 5000 bp)      122                                   122                                        
+# contigs (>= 10000 bp)     91                                    91                                         
+# contigs (>= 25000 bp)     53                                    53                                         
+# contigs (>= 50000 bp)     28                                    28                                         
+Total length (>= 0 bp)      4167230                               -                                          
+Total length (>= 1000 bp)   4134783                               4134689                                    
+Total length (>= 5000 bp)   3940934                               3940934                                    
+Total length (>= 10000 bp)  3723926                               3723926                                    
+Total length (>= 25000 bp)  3118536                               3118536                                    
+Total length (>= 50000 bp)  2184205                               2184205                                    
+# contigs                   243                                   244                                        
+Largest contig              158427                                158427                                     
+Total length                4161333                               4161239                                    
+GC (%)                      45.99                                 45.99                                      
+N50                         52820                                 52820                                      
+N90                         9319                                  9319                                       
+auN                         56663.4                               56662.3                                    
+L50                         27                                    27                                         
+L90                         94                                    94                                         
+# N's per 100 kbp           2.26                                  0.00                                       
